@@ -1,0 +1,12 @@
+
+[
+    {
+    "operation": "shift",
+    "spec": {
+        "date": "dDate"
+        }
+    },
+    {
+       "operation" : "com.example.demo.CustomDateTransform"
+    }
+]

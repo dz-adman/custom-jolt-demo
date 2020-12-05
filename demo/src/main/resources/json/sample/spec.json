@@ -3,10 +3,11 @@
     {
     "operation": "shift",
     "spec": {
-        "date": "dDate"
+        	"accountName":"name",
+        	"date":"dDate"
         }
     },
     {
-       "operation" : "com.example.demo.CustomDateTransform"
+    	"operation":"com.example.Transform.CustomerTransform"
     }
 ]

@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.example.Transform;
 
 import java.util.Map;
 
@@ -9,13 +9,13 @@ public class CustomDateTransform implements Transform {
 	
 	@Override
 	public Object transform( Object input ) {
+		
         // Grab the date out of the incoming Json data / Map
-        String dateString = ((Map<String, String>) input).get("dDate"); 
-
+		String dateString = ((Map<String, String>)input).get("dDate"); 
+		
         // Todo
         // Your custom date manipulation logic.
         String fixedDate = "This is the new date";
-        
 
         // Overwrite the old value with the new / fixed one.
         ((Map) input).put("newDate", fixedDate);
